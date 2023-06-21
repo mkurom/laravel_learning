@@ -34,6 +34,11 @@
     </ul>
 
     <a href="{{ route('todos.create') }}">Create New Todo</a>
+    <a href="{{ route('todos.create') }}">Create New Todo</a>
+    <a href="{{ route('todos.create') }}">Create New Todo</a>
+    <a href="{{ route('todos.create') }}">Create New Todo</a>
+    <a href="{{ route('todos.create') }}">Create New Todo</a>
+    <a href="{{ route('todos.create') }}">Create New Todo</a>
 
 </body>
 
