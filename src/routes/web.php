@@ -30,5 +30,7 @@ Route::get('/todos/{id}',  [TodoController::class, 'show'])->name('todos.show');
 Route::put('/todos/{id}',  [TodoController::class, 'update'])->name('todos.update');
 
 // 新規作成
-Route::get('/todos/create', [TodoController::class, 'create'])->name('todos.create');
+Route::get('/todo/create', [TodoController::class, 'create'])->name('todos.create');
+// これだと、エラーが発生する
+// Route::get('/todos/create', [TodoController::class, 'create'])->name('todos.create');
 Route::post('/todos', [TodoController::class, 'store'])->name('todos.store');
