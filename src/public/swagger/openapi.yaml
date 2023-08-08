@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: 'My API'
+  version: '0.1'
+paths:
+  /api:
+    get:
+      operationId: 7231446a2eba0e6838ddb43edf2cffc0
+      responses:
+        '200':
+          description: 'get all todos'
+  /api/todos:
+    get:
+      operationId: 26f8b8bcf6d7b5079fcb60d13cfa6e73
+      responses:
+        '200':
+          description: 'get all todos'
